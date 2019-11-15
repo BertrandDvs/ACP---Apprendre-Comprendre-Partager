@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass:100&display=swap')
+
+html{
+  background-color: rgba(0, 0, 0, 0.90);
+
+}
+
+.btn-outline-success  {
+  border-color: rgb(99, 17, 204);
+  color: rgb(99, 17, 204);
+}
+
+.btn-outline-success:hover{
+  background-color: rgb(99, 17, 204);
+  color: white;
+  border-color: rgb(99, 17, 204);
+}
+
+.btn{
+  background-color: white;
+  border-color: rgb(99, 17, 204);
+  color: rgb(99, 17, 204);
+  margin-top: 100px;
+  border-radius: 100px;
+  font-family: Overpass;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
+  display: flex;
+
+}
+
+.btn:hover{
+  background-color: rgb(99, 17, 204);
+  color: white;
+  border-color: rgb(99, 17, 204);
+}
+
+.img-fluid{
+  height: 100vh;
+  background-image: url(../images/background1.jpg);
+}
+
+.img-fluid2{
+  height: 100vh;
+  background-image: url(../images/background2.jpg);
+}
+
+.img-fluid3{
+  height: 100vh;
+  background-image: url(../images/background3.jpg);
+}
+
+.img-fluid4{
+  height: 100vh;
+  background-color: rgb(99, 17, 204);
+}
+
+.img-fluid5{
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.apropos{
+  height: 100vh;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 200px;
+}
+
+.apropos2{
+  margin-top: 300px;
+  padding-bottom: 300px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: white;
+
+}
+
+.apropos2 img{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.navbar-brand{
+  margin-right: 100px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.nav-link{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(99, 17, 204);
+
+}
+
+.navbar{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.50) ;
+  position: fixed;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.card-title{
+  text-align: center;
+  border-width: 0px;
+  color: rgb(99, 17, 204);
+ font-family: 'Overpass', sans-serif;
+ font-weight: 200;
+}
+
+.card-text{
+  font-family: 'Overpass', sans-serif;
+}
+
+.card{
+  text-align: center;
+  background-color: rgba(86, 159, 221, 0);
+  width: 100px;
+}
+
+.card img:hover{
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+      -moz-transform:scale(1.05); /* Firefox */
+      -ms-transform:scale(1.05); /* IE 9 */
+      -o-transform:scale(1.05); /* Opera */
+       transform:scale(1.05);
+;}
+
+.card img{
+  border-radius: 30px;
+  border-color: rgb(99, 17, 204);
+  border-width: 0px;
+}
+
+.card-title{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.p{
+font-family: 'Overpass', sans-serif;
+}
+
+
+.bg-dark{
+  background-color: rgba(0, 0, 0, 0.20);
+  color: rgb(99, 17, 204);
+}
+
+.nav-link{
+  color: rgb(99, 17, 204);
+}
+
+#scrolldown {
+  bottom: 40px;
+  height: 100px;
+  margin-left: -50px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 100px;
+  z-index: 100;
+}
+#scrolldown p {
+  font: 700 0.7em/1em 'Avenir',sans-serif;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-name: scroll;
+  color: rgb(255, 255, 255);
+}
+#scrolldown > p {
+  text-transform: uppercase;
+  text-indent: 3px;
+}
+.mouse {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 13px;
+  display: block;
+  height: 46px;
+  left: 50%;
+  margin: 10px 0 0 -13px;
+  position: absolute;
+  width: 26px;
+}
+.mouse span {
+  display: block;
+  font-size: 1.5em;
+  margin: 6px auto;
+}
+@keyframes scroll {
+  0% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.form-control{
+  border-radius: 100px;
+  margin-right: 100px;
+}
+
+.bangbang{
+  margin-bottom: 80px;
+  color: rgb(102, 39, 170);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 800;
+}
+
+.apropos3{
+  height: 100vh;
+}
+
+.img-fluid3{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30) ;
+}
+
+.img-fluid2{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30) ;
+}
+
+.img-fluid{
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.30) ;
+}
+
+.groupeforme{
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: 100px;
+}
+
+.bangbang2{
+  margin-top: 300px;
+  color: rgb(102, 39, 170);
+  font-family: 'Overpass', sans-serif;
+  font-weight: 800;
+}
+
+.text-uppercase{
+  color: purple;
+}
+
+.jeuxbang{
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  padding-top: 20vh;
+}
+
+.nomjeu{
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 50px;
+  color: white;
+}
+
+.balise{
+  text-align: center;
+}
+
+.etoile{
+text-align: center;
+color: white;
+margin-top: 40px;
+}
+
+.list-group{
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  padding-top: 20vh;
+}
